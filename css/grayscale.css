@@ -235,15 +235,16 @@ a:focus {
  width: 100%;
   padding: 50px 0;
   background-color: black;
-  height:500px;
+  height:610px;
+  margin:0px 0px 0px 0px;
 
 
 }
 .download-section {
   width: 100%;
   padding: 50px 0;
-  height: 500px;
-  margin:0px 0px 0px 0px;
+  height: 640px;
+  margin:110px 0px 0px 0px;
   color: white;
 
   background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
@@ -262,6 +263,12 @@ a:focus {
   .content-section {
     padding-top: 250px;
 
+  }
+  .contactpoop{
+    background-color: black;
+    width:100%;
+    height: 720px;
+    margin:250px 0px 0px 0px;
   }
 
   .download-section {
@@ -420,4 +427,14 @@ video {
 @media screen and (max-device-width: 800px) {
   html { background: url() #000 no-repeat center center fixed; }
   #bgvid { display: none; }
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////*/
+}
+
+.photo1{
+  margin:0px 0px 0px 0px;
+  height:200px;
+  width: 0px;
+   -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
 }

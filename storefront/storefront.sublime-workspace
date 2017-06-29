@@ -1,0 +1,346 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"fa",
+				"fadeout"
+			],
+			[
+				"F",
+				"fadein"
+			],
+			[
+				"t",
+				"title\tAttr"
+			],
+			[
+				"Mer",
+				"Merch"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"h",
+				"h1\tTag"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"a",
+				"attack"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"bakc",
+				"background-color"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"hea",
+				"header\tTag"
+			],
+			[
+				"mixed",
+				"mixedArray"
+			],
+			[
+				"number",
+				"numberenterd"
+			],
+			[
+				"elevar",
+				"elevatorIsStuckWhileWeAreOnIt"
+			],
+			[
+				"ele",
+				"elevatorNumber"
+			],
+			[
+				"eleva",
+				"elevatorDown"
+			],
+			[
+				"elea",
+				"elevatorBroken"
+			],
+			[
+				"grad",
+				"gradnumber"
+			],
+			[
+				"brit",
+				"birthcity"
+			],
+			[
+				"b",
+				"birthstate"
+			],
+			[
+				"num",
+				"numberofshotsKobeMade"
+			],
+			[
+				"ni",
+				"numberofshotsImade"
+			],
+			[
+				"l",
+				"li\tTag"
+			],
+			[
+				"p",
+				"p\tTag"
+			],
+			[
+				"di",
+				"div\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Nextech/Desktop/jQueryFriendList/public/js/ajax.js",
+		"/C/Users/Nextech/Desktop/jQueryFriendList/public/css/main.css",
+		"/C/Users/Nextech/Desktop/jQueryFriendList/package.json",
+		"/C/Users/Nextech/Desktop/jQueryFriendList/index.html",
+		"/C/Users/Nextech/Desktop/jQueryFriendList/index.js",
+		"/C/Users/Nextech/Desktop/jQueryFriendList/public/js/index.htnl",
+		"/C/Users/Nextech/Desktop/WebFundamentals/JavaScript_Basics/0.01_PopQuiz.js",
+		"/C/Users/Nextech/Desktop/WebFundamentals/jQuery_Basics/0.01_statements.html",
+		"/C/Users/Nextech/Desktop/WebFundamentals/jQuery_Basics/0.01_statements.js",
+		"/C/Users/Nextech/Desktop/GreyScale Simplistic/css/0.01_statements.js",
+		"/C/Users/Nextech/Desktop/GreyScale Simplistic/css/0.01_statements.html",
+		"/C/Users/Nextech/Desktop/GreyScale Simplistic/css/0.00_setup.js",
+		"/C/Users/Nextech/Desktop/GreyScale Simplistic/css/0.00_jQuery_setup.html",
+		"/C/Users/Nextech/Desktop/WebFundamentals/jQuery_Basics/hi.html",
+		"/C/Users/Nextech/Desktop/GreyScale Simplistic/css/grayscale.min.css",
+		"/C/Users/Nextech/Desktop/storefront/storefront.css",
+		"/C/Users/Nextech/Desktop/storefront/storefront.html",
+		"/C/Users/Nextech/Desktop/startbootstrap-agency-gh-pages/css/agency.min.css",
+		"/C/Users/Nextech/Desktop/cheesestore/StoreAppStarter/main.css",
+		"/C/Users/Nextech/Desktop/WebFundamentals/JavaScript_Basics/0.08_arrays.js",
+		"/C/Users/Nextech/Desktop/WebFundamentals/JavaScript_Basics/0.08_arrays_challenge.js",
+		"/C/Users/Nextech/Desktop/WebFundamentals/JavaScript_Basics/0.09_objetcs.js",
+		"/C/Users/Nextech/Desktop/storefront/0.08_arrays_challenge.js",
+		"/C/Users/Nextech/Desktop/storefront/0.07_loops_challenge.js",
+		"/C/Users/Nextech/Desktop/storefront/0.06_functions_challenge.js",
+		"/C/Users/Nextech/Desktop/cheesestore/StoreAppStarter/img/bg_cheeses_lg_1500w.jpg",
+		"/C/Users/Nextech/Desktop/cheesestore/StoreAppStarter/img/facebook_24.png",
+		"/C/Users/Nextech/Desktop/WebFundamentals/JavaScript_Basics/0.01_integers.js",
+		"/C/Users/Nextech/Desktop/WebFundamentals/JavaScript_Basics/0.05_conditionals.js",
+		"/C/Users/Nextech/Desktop/WebFundamentals/JavaScript_Basics/0.05_conditionals_elevator.js",
+		"/C/Users/Nextech/Desktop/WebFundamentals/JavaScript_Basics/0.05_conditional_challenge.js",
+		"/C/Users/Nextech/Desktop/WebFundamentals/JavaScript_Basics/0.06_funtions.js",
+		"/C/Users/Nextech/Desktop/WebFundamentals/JavaScript_Basics/0.07_loops.js",
+		"/C/Users/Nextech/Desktop/WebFundamentals/JavaScript_Basics/0.00_setup.js",
+		"/C/Users/Nextech/Desktop/WebFundamentals/JavaScript_Basics/0.02_variables.js",
+		"/C/Users/Nextech/Desktop/WebFundamentals/JavaScript_Basics/0.03_strings.js",
+		"/C/Users/Nextech/Desktop/WebFundamentals/JavaScript_Basics/0.04_boolean.js",
+		"/C/Users/Nextech/AppData/Roaming/Sublime Text 3/Packages/User/node.sublime-build",
+		"/C/Users/Nextech/AppData/Roaming/Sublime Text 3/Packages/User/Node.sublime-build",
+		"/C/Users/Nextech/AppData/Roaming/Sublime Text 3/Packages/User/0.02_variables.js",
+		"/C/Users/Nextech/AppData/Roaming/Sublime Text 3/Packages/User/0.00_Setup.js",
+		"/C/Users/Nextech/Desktop/WebFundamentals/CSS_Basics/0.00_setup.js",
+		"/C/Users/Nextech/Desktop/WebFundamentals/CSS_Basics/monster.css",
+		"/C/Users/Nextech/Desktop/WebFundamentals/CSS_Basics/0.03_CSS_margins.css",
+		"/C/Users/Nextech/Desktop/WebFundamentals/CSS_Basics/0.03_CSS_margins.html",
+		"/C/Users/Nextech/Desktop/WebFundamentals/CSS_Basics/SmileFace.html",
+		"/C/Users/Nextech/Desktop/WebFundamentals/CSS_Basics/SmileFace.css",
+		"/C/Users/Nextech/Desktop/WebFundamentals/CSS_Basics/monster.html",
+		"/C/Users/Nextech/Desktop/WebFundamentals/HTML_Basics/0.09_forms.html",
+		"/C/Users/Nextech/Desktop/WebFundamentals/CSS basic/SmileFace.css",
+		"/C/Users/Nextech/Desktop/WebFundamentals/CSS basic/SmileFace.html",
+		"/C/Users/Nextech/Desktop/WebFundamentals/CSS basic/0.01_CSS_classes.css",
+		"/C/Users/Nextech/Desktop/WebFundamentals/CSS basic/0.01_CSS_classes.html",
+		"/C/Users/Nextech/Desktop/WebFundamentals/CSS basic/0.00_css_setup.html",
+		"/C/Users/Nextech/Desktop/WebFundamentals/CSS basic/0.00_css_setup.css"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"C:\\Users\\Nextech\\Desktop\\agent Template\\StoreApp,C:\\Users\\Nextech\\Desktop\\cheesestore"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"portfoliolin",
+			"porfolioModall",
+			"10px",
+			"margin-right",
+			"/*!",
+			"explode",
+			".nav navbar-nav",
+			".nav navbar",
+			";\n",
+			"DAMN",
+			"ff9800",
+			">\n",
+			"jpg"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"StoreApp"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/Node.sublime-build",
+	"project": "storefront.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 217.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
