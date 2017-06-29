@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Allans' Portfolio</title>
+    <title>Allan's Portfolio</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -126,11 +126,15 @@
                 <p>Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!</p>
                 <p><a href="mailto:feedback@startbootstrap.com">feedback@startbootstrap.com</a>
                 </p>
-                <form action="https://formspree.io/your@email.com" method="POST">
-                 <input type="text" name="name">
-                 <input type="email" name="_replyto">
-                 <input type="submit" value="Send">
-                </form>
+                        <form action="https://formspree.io/allan00hernan@gmail.com" method="POST">
+                            <input type="text" id="cname" class="form-control" name="Name:" placeholder="Name" required="" data-validation-required-message="Please enter your name." aria-invalid="false" style="margin: 5px;">
+                                <p class="help-block text-danger"></p>
+                            <input type="email" id="cemail" name="Email:" class="form-control" placeholder="Your E-mail" required="" data-validation-required-message="Please enter your email address." style="margin: 5px;">
+                                <p class="help-block text-danger"></p>
+                            <textarea class="form-control" id="cmessage" name="Message:" rows="7" placeholder="Message" required="" data-validation-required-message="Please enter your message." style="margin: 5px;"></textarea>
+                                <p class="help-block text-danger"></p>
+                            <input type="submit" class="btn btn-round btn-g" value="Send" style="margin: 5px;">
+                        </form>
                 <ul class="list-inline banner-social-buttons">
                     <li>
                         <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
