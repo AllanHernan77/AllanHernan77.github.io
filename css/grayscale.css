@@ -23,8 +23,8 @@ h5,
 h6 {
   margin: 0 0 35px;
   text-transform: uppercase;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
   letter-spacing: 1px;
 }
 p {
@@ -40,15 +40,15 @@ p {
   }
 }
 a {
-  color: #42DCA3;
-  -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
+  color:black ;
+  -webkit-transition:  4s;
+  -moz-transition:  4s ;
+  transition: 4s ;
 }
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #1d9b6c;
+  color: ;
 }
 .light {
   font-weight: 400;
@@ -87,7 +87,7 @@ a:focus {
   transition: background 0.3s ease-in-out;
   margin-right: 200px;
 }
-.navbar-custom .nav li a:hover {
+.navbar-custom .nav li :hover {
   color: rgba(255, 255, 255, 0.8);
   outline: none;
   background-color: transparent;
@@ -234,16 +234,34 @@ a:focus {
 .aboutpoop{
  width: 100%;
   padding: 50px 0;
-  background-color: black;
+  background-color: #3e3b3b;
   height:610px;
-  margin:0px 0px 0px 0px;
+  margin:0px 0px 0px 220px;
+
+}
+.Allan{
+  margin:-630px 1050px 0px 0px;
+    filter:grayscale(100%);
+    transition: grayscale 4s;
 
 
 }
+.textboxAbout{
+   width: 33%;
+    height: auto;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 3px;
+    position: absolute;
+    margin: 0px 0px 0px 60px;
+    top: 20%;
+    opacity:.3;
+ 
+}
 .download-section {
   width: 100%;
-  padding: 50px 0;
-  height: 640px;
+  padding: ;
+  height: 755px;
   margin:110px 0px 0px 0px;
   color: white;
 
@@ -253,6 +271,16 @@ a:focus {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+}
+.headproject{
+   margin: -86px 0px 53px 0px;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+  font-weight: 100;
+    letter-spacing: 0.15em;
+  color: white;
+  font-size: 45px;
 }
 #map {
   width: 100%;
@@ -266,17 +294,24 @@ a:focus {
   }
   .contactpoop{
     background-color: black;
-    width:100%;
+    width:116%;
     height: 720px;
-    margin:250px 0px 0px 0px;
+    margin:-51px 93px 6px -3px;
   }
+.contactheader{
+     position: relative;
+    margin: 0 0 70px;
+    letter-spacing: 0.15em;
+    font-size: 45px;
+    color: white;
 
+}
   .download-section {
     padding: 100px 0;
   }
   #map {
-    height: 400px;
-    margin-top: 250px;
+    height: 100px;
+    margin-top: 150px;
   }
 }
 .btn {
@@ -377,6 +412,13 @@ h1 {
   margin-top: 0;
   letter-spacing: .3rem;
 }
+.activitesExamples{
+   list-style-type: none;
+
+}
+.list{
+   font-size: 19px;
+}
 #polina button { 
   display: block;
   width: 80%;
@@ -431,10 +473,216 @@ video {
 /*///////////////////////////////////////////////////////////////////////////////////////////////////*/
 }
 
-.photo1{
+.photo{
+ 
+  width:100%; 
+  height:100px;
+  margin:110px 0px 0px 0px;
+  filter:grayscale(100%);
+}
+
+.popo{
+margin: -25px 0px 0px -350px;
+width: 450px;
+height: 320px;
+  filter:grayscale(100%);
+ transition: opacity 2s;
+
+}
+.popo:hover { 
+    opacity:.05; 
+}
+.creature{
+margin: -26px 0px 0px 0px;
+width: 450px;
+height: 320px;
+  filter:grayscale(100%);
+}
+.comingsoon{
+  margin: -25px -350px 0px 0px;
+width: 450px;
+height: 320px;
+  filter:grayscale(100%);
+}
+.comingsoonn{
+ margin:  0px -25px 0px 0px;
+width: 450px;
+height: 320px;
+  filter:grayscale(100%);
+}
+.comingsonnn{
+   margin:  -329px -236px 0px 696px;
+width: 450px;
+height: 320px;
+  filter:grayscale(100%);
+}
+.verycomingsoon{
+  margin:  -386px 1111px 0px 0px;
+width: 450px;
+height: 320px;
+  filter:grayscale(100%);
+}
+
+.kendrickProjectText{
+  background-color: 
+  height:100px;
+  width: 100px;
+  margin:-561px 0px 0px -60px;
+  z-index: 100;
+}
+.popolink{
+  text-decoration: none;
+}
+.popolink:hover{
+  opacity:0;
+}
+
+.MonsterProjectText{
+  background-color: 
+  height:100px;
+  width: 100px;
+  margin:-120px 0px 0px 390px;
+  z-index: 100;
+}
+.creaturelink{
+  text-decoration: none;
+}
+.creaturelink:hover{
+  opacity:0;
+}
+
+.moretocomeText1{
+  background-color: 
+  height:100px;
+  width: 100px;
+  margin:-96px 0px 0px 846px;
+  z-index: 100;
+}
+.moretocome1{
+  text-decoration: none;
+}
+.moretocome1:hover{
+  opacity:0;
+}
+.moretocomeText2{
+  background-color: 
+  height:100px;
+  width: 100px;
+  margin: 274px 0px 0px 379px;
+  z-index: 100;
+}
+.moretocome2{
+  text-decoration: none;
+}
+.moretocome2:hover{
+  opacity:0;
+}
+
+.moretocomeText3{
+  background-color: 
+  height:100px;
+  width: 100px;
+  margin:-92px 0px 0px 839px;
+  z-index: 100;
+}
+.moretocome3{
+  text-decoration: none;
+}
+.moretocome3:hover{
+  opacity:0;
+}
+
+.moretocomeText4{
+  background-color: 
+  height:100px;
+  width: 100px;
+  margin:-115px 0px 0px -71px;
+  z-index: 100;
+}
+.moretocome4{
+  text-decoration: none;
+}
+.moretocome4:hover{
+  opacity:0;
+}
+
+.headeraboutME{
   margin:0px 0px 0px 0px;
-  height:200px;
-  width: 0px;
-   -webkit-filter: grayscale(100%); 
-    filter: grayscale(100%);
+  margin: -862px 0px 53px 0px;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+  font-weight: 100;
+  letter-spacing: 1px;
+  color: white;
+  font-size: 35px;
+}
+
+
+
+.boxAbout{
+   width: 55%;
+    height: auto;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 3px;
+    position: absolute;
+    margin: 554px 0px 0px 407px;
+    top: 20%;
+    opacity:.3;
+    transition: opacity 1s;
+ }
+
+ .boxAbout:hover{
+  opacity:1;
+
+}
+
+/*//////////////////////////*/
+
+.module, .module-small, .module-header {
+    position: relative;
+    padding: 140px 0;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin:-300px 0px 0px 0px;
+}
+.module{
+  margin:400px 0px 0px 0px;
+  background-color: grey;
+}
+
+.container {
+    width: 1170px;
+}
+.module-title {
+    position: relative;
+    margin: 0 0 70px;
+    letter-spacing: 0.15em;
+    font-size: 45px;
+    color: white;
+}
+.align-center {
+    text-align: center;
+}
+
+.font-alt {
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+.content-box-icon {
+    font-size: 36px;
+}
+.content-box-title {
+    margin: 5px 0 0;
+    font-size: 14px;
+  }
+
+.content-box-text {
+    margin: 15px 0 0;
 }
