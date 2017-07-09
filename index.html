@@ -19,6 +19,8 @@
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+
 
     <!-- Theme CSS -->
     <link href="css/grayscale.css" rel="stylesheet">
@@ -47,10 +49,13 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll" href=".aboutpoop">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#download">Projects</a>
+                        <a class="page-scroll" href=".projectheaderText">Projects</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href=".module">SkillSet</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
@@ -84,67 +89,130 @@
     </header>
 
     <!-- About Section -->
+ 
     <section id="about" class="container content-section text-center">
         <div class="aboutpoop">
              <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                         <div class="boxAbout">
-                            <p class="headeraboutP">Dedicated, motivated, and hard working High School student with a fortified postition in seeking to apply my yet expendable abilites of the tech field. While grasping entry level skills (coding, expanding from basic html to java script) into a software or video game development carrer.
-                            As I am still attending High School, it should be taken into account that not only am I more so focused on the tech field, rather incorporating extra-cirricular activites and prioritizing my academics is also ideal at a young age.
+                            <p class="headeraboutP">Dedicated, motivated, and hard working High School student with  seeking to apply my yet expendable abilites of the tech field. While grasping entry level skills (coding, expanding from basic html to JavaScript) into a software or video game development carrer. As I am still attending High School, it should be taken into account that not only am I more so focused on the tech field, rather incorporating extra-cirricular activites and prioritizing my academics is also ideal at a young age.
                             </p>
-                            <p class="Extra-CirricularP">Extra-Cirricular Activites:</p>
-                            <ul class="activitesExamples">
-                                <li class="list">Basketball</li>
-                                <li class="list">Cross Country</li>
-                                <li class="list">NHS</li>
-                                <li class="list">Rotary Club</li>
-                                <li class="list">...</li>
-                            </ul>
                         </div>
                  </div>
             </div>
         </div>
             <img class="Allan" src="img/profile.jpg" width="623" height="610">
+         <ul class="moreButtonList">
+             <li>
+                <a href="moreabout.html" class="btn btn-default btn-lg"><span class="network-name">more</span></a>
+            </li>
+        </ul>
 </section>
+
+    <!-- Project header -->
+    <div class="projectheader">
+        <h1 class="projectheaderText">Projects</h1>
+        <hr>
+    </div>
     <!-- Project Section -->
 
-    <section id="download" class="content-section text-center">
-        <div class="download-section">
-                <h1 class="headproject">Projects</h1>
-                <hr class="projecthr">
-                    <div class="col-lg-8 col-lg-offset-2">
-                    <!-- Images in Project Section-->
-                        <a class="popolink" target="_blank" href="storefront/storefront.html"><img src="img/kendrickconcert.jpg" class="popo"></a>
-                        <a class="creaturelink" href="https://codepen.io/AllanHernan77/pen/gRRpYV" target="_blank"><img src="img/halloween_drawing.jpg" class="creature"></a>
-                        <a class= "moretocome1" href="#moretocome"><img src="img/questionmark.jpg" class="comingsoon"></a>
-                        <a class= "moretocome2" href="#moretocome"><img src="img/question2.jpg" class="comingsoonn"></a>
-                        <!-- Background text when hover image-->
-                         <div class="kendrickProjectText">
-                            <p>Kendrick Lamar Website</p>
-                         </div>
-                         <div class="MonsterProjectText">
-                            <p>Creature Project</p>
-                         </div>
-                         <div class="moretocomeText1">
-                             <p>More to Come</p>
-                         </div>
-                         <div class="moretocomeText2">
-                             <p>More to Come</p>
-                         </div>
-                         <div class="moretocomeText3">
-                              <p>More to Come</p>
-                         </div>
-                         <div class="moretocomeText4">
-                              <p>More to Come</p>
-                         </div>
-                    </div>
+    <section class="no-padding" id="portfolio">
+        <div class="container-fluid">
+            <div class="row no-gutter popup-gallery">
+                <div class="col-lg-4 col-sm-6">
+                    <a href="storefront/storefront.html" class="portfolio-box" target="_blank">
+                        <img src="img/kendrickconcert.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    HTML
+                                </div>
+                                <div class="project-name">
+                                    Kendrick Website
+                                </div>
+                            </div>
+                        </div>
+                    </a>
                 </div>
-         </div>
-    <div>
-    <a class="moretocome3" href="#moretocome3"><img src="img/questionmark.jpg" class="comingsonnn">
-    </div></a>
-    <a class="moretocome4" href="#moretocome4"><img src="img/questionmark.jpg" class="verycomingsoon"></a>
- </section>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="https://codepen.io/AllanHernan77/pen/gRRpYV" class="portfolio-box" target="_blank">
+                        <img src="img/halloween_drawing.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    CSS
+                                </div>
+                                <div class="project-name">
+                                    Creature
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#more to come" class="portfolio-box">
+                        <img src="img/questionmark.jpg" class="img-responsive" target="_blank" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    ?
+                                </div>
+                                <div class="project-name">
+                                    More to come
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#more to come" class="portfolio-box" target="_blank">
+                        <img src="img/question2.jpg" class="img-responsive"  alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    ?
+                                </div>
+                                <div class="project-name">
+                                    More to come
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#more to come" target="_blank" class="portfolio-box">
+                        <img src="img/questionmark.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    ?
+                                </div>
+                                <div class="project-name">
+                                     More to come
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="https://www.youtube.com/channel/UCb7oO_ga8BW2dxulJ7YVgvw" class="portfolio-box" target="_blank">
+                        <img src="img/youtube.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Youtube
+                                </div>
+                                <div class="project-name">
+                                    Video(s)
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <br>
 
     <!--SkillSet Section-->
@@ -154,9 +222,9 @@
                 <div class="row">
                     <div class="col-sm-6 col-sm-offset-3">
                         <h2 class="module-title align-center font-alt">Skillset</h2>
-                        <br>
                         <div class="module-subtitle align-center font-inc">
                             Having a well rounded skill set expanding from the tech field to physical charcteristics is ideal to anyone!
+                            <hr>
                         </div>
                     </div>
                 </div>
@@ -169,7 +237,7 @@
                                 <i class="fa fa-code" aria-hidden="true"></i>
                             </div>
                             <div class="content-box-title font-inc font-uppercase">
-                                Java/Jquery
+                                JavaScript/Jquery
                             </div>
                             <div class="content-box-text">
                                 Taking the oppurtunity to learn JavaScript and Jquery through Nextech. I plan on to further improve and fortify these skills in the near future.
@@ -188,7 +256,7 @@
                                 HTML / CSS
                             </div>
                             <div class="content-box-text">
-                                Having the ability to write in HTML &amp; CSS is the first step to any developer.My first step was taken, and I plan to walk the journey to display up to par websites. 
+                                Having the ability to write in HTML &amp; CSS is the first step to any developer. My first step was taken, and I plan to walk the journey to display up to par websites. 
                             </div>
                         </div>
                     </div>
@@ -301,7 +369,7 @@
         <div class="contactpoop">
             <div class="row">
                  <div class="col-lg-8 col-lg-offset-2">
-                      <h2 class="contactheader">Contact Me!</h2>
+                      <h2 class="contactheader">Contact Me!</h2><hr>
                       <p>An email would be greatly apperciated, on regards of either job oppurtunites or bettering my website as a whole! </p>
                       <p><a href="gmail.com">allan00hernan@gmail.com</a></p>
                       <form action="https://formspree.io/allan00hernan@gmail.com" method="POST">

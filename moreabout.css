@@ -1,0 +1,290 @@
+/*!
+ * Start Bootstrap - Grayscale v3.3.7+1 (http://startbootstrap.com/template-overviews/grayscale)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+  background-color: black;
+
+}
+html {
+  width: 100%;
+  height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 35px;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  letter-spacing: 1px;
+  color: #2d2a2a;
+}
+p {
+  margin: 0 0 25px;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #2d2a2a;
+}
+@media (min-width: 768px) {
+  p {
+    margin: 0 0 35px;
+    font-size: 20px;
+    line-height: 1.6;
+  }
+}
+a {
+  color:black ;
+  -webkit-transition:  4s;
+  -moz-transition:  4s ;
+  transition: 4s ;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+  color: ;
+}
+.light {
+  font-weight: 400;
+}
+.navbar-custom {
+  margin-bottom:0px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  text-transform: uppercase;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: transparent;
+  margin-right: 0px;
+}
+
+.navbar-custom .navbar-toggle {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.2);
+  font-size: 12px;
+
+}
+.navbar-custom .navbar-toggle:focus,
+.navbar-custom .navbar-toggle:active {
+  outline: none;
+}
+.navbar-custom .navbar-brand {
+  font-weight: 700;
+}
+.navbar-custom .navbar-brand:focus {
+  outline: none;
+}
+.navbar-custom a {
+  color: white;
+}
+.navbar-custom .nav li a {
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;
+  margin:0px 520px 0px 0px;
+}
+.navbar-custom .nav li :hover {
+  color: rgba(255, 255, 255, 0.8);
+  outline: none;
+  background-color: transparent;
+}
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li a:active {
+  outline: none;
+  background-color: transparent;
+}
+.navbar-custom .nav li.active {
+  outline: none;
+}
+.navbar-custom .nav li.active a {
+  background-color:transparent;
+}
+.navbar-custom .nav li.active a:hover {
+  color: white;
+}
+@media (min-width: 768px) {
+  .navbar-custom {
+    padding: 0px 0px 0px 0px;
+    border-bottom: none;
+    letter-spacing: 1px;
+    background: transparent;
+    -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+  }
+  .navbar-custom.top-nav-collapse {
+    padding: 0;
+    background: black;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+
+
+
+
+/* video need to edit/////////////////////////////////////////////////////////////////////////////////////*/
+
+}
+body {
+  margin: 0;
+  background: #000; 
+}
+
+#polina { 
+  font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
+  font-weight:100; 
+  background: rgba(0,0,0,0.3);
+  color: white;
+  padding: 2rem;
+  width: 33%;
+  margin:2rem;
+  float: right;
+  font-size: 1.2rem;
+}
+h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-top: 0;
+  letter-spacing: .3rem;
+}
+.activitesExamples{
+   list-style-type: none;
+
+}
+.list{
+   font-size: 15px;
+    text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+  font-weight: 100;
+  letter-spacing: 1px;
+  color: white;
+
+}
+#polina button { 
+  display: block;
+  width: 80%;
+  padding: .4rem;
+  border: none; 
+  margin: 1rem auto; 
+  font-size: 1.3rem;
+  background: rgba(255,255,255,0.23);
+  color: #fff;
+  border-radius: 3px; 
+  cursor: pointer;
+  transition: .3s background;
+}
+#polina button:hover { 
+   background: rgba(0,0,0,0.5);
+}
+
+a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  
+  padding: .5rem;
+  transition: .6s background; 
+}
+a:hover{
+  background:rgba(0,0,0,0.9);
+}
+video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translateX(-50%) translateY(-50%);
+ background: url('') no-repeat;
+  background-size: cover;
+  transition: 1s opacity;
+  zoom:120%;
+  z-index: -100;
+}
+
+@media screen and (max-width: 500px) { 
+  div{width:70%;} 
+}
+@media screen and (max-device-width: 800px) {
+  html { background: url() #000 no-repeat center center fixed; }
+  #bgvid { display: none; }
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.FirstBox {
+    width: 50%;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 3px;
+    margin: 0 auto;
+    opacity:.3;
+    padding:50px;
+    margin-top:100px;
+
+ }
+
+  .FirstBox:hover {
+    opacity: .8;
+    box-shadow: 0px 0px 150px lightslategray;
+      -webkit-transition: all 1.35s;
+  -moz-transition: all 1.35s;
+  transition: all 1.35s;
+
+
+ }
+
+ .SecondBox {
+    width: 50%;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 3px;
+    margin: 0 auto;
+    opacity:.3;
+    padding:50px;
+    margin-top:100px;
+
+ }
+
+  .SecondBox:hover {
+    opacity: .8;
+    box-shadow: 0px 0px 150px lightslategray;
+      -webkit-transition: all 1.35s;
+  -moz-transition: all 1.35s;
+  transition: all 1.35s;
+
+ }
+
+ .ThirdBox {
+    width: 50%;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 3px;
+    margin: 0 auto;
+    opacity:.3;
+    padding:50px;
+    margin-top:100px;
+
+ }
+
+  .ThirdBox:hover {
+    opacity: .8;
+    box-shadow: 0px 0px 150px lightslategray;
+      -webkit-transition: all 1.35s;
+  -moz-transition: all 1.35s;
+  transition: all 1.35s;
+
+
+ }
+
+
