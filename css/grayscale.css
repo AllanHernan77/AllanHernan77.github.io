@@ -254,14 +254,17 @@ a:focus {
     min-width: 960px;
 }
 
-.Allan{
-  margin: -485px 746px 0px 0px;
-    filter: grayscale(100%);
-    transition: grayscale 4s;
-    z-index: 100;
-
-
+/*///////////////////////////////////////////////////////////////////////////////////////////////*/
+.img__img{
+  margin: -489px 746px 0px 0px;
+    filter: grayscale(0%);
+    z-index: 1;
+    width:510px; 
+    height:610px;
 }
+
+
+/*////////////////////////////////////////////////////////////////////////////////////////*/
 .textboxAbout{
    width: 33%;
     height: auto;
@@ -271,7 +274,7 @@ a:focus {
     position: absolute;
     margin: 0px 0px 0px 60px;
     top: 20%;
-    opacity:.3;
+    opacity:;
  
 }
 .download-section {
@@ -318,6 +321,8 @@ a:focus {
     height: 789px;
     margin: -51px 93px 6px -3px;
     padding: 120px;
+    box-shadow: 0px 0px 150px black;
+
   }
 .contactheader{
      position: relative;
@@ -507,9 +512,9 @@ video {
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 3px;
     margin: -47px 0px 0px 450px;
-    opacity: .3;
+    opacity: 1;
     transition: opacity 1s;
-    color: grey;
+    color: black;
     padding: 50px;
 
 }
@@ -522,10 +527,7 @@ video {
 .list{
   color: grey;
 }
- .boxAbout:hover{
-  opacity:1;
 
-}
 
 /*//////////////////////////*/
 
@@ -556,7 +558,7 @@ video {
 }
 .module{
   margin:-20px 0px 0px 0px;
-  background-color: grey;
+  background-color: #3e3b3b;
 }
 
 .container {
@@ -581,6 +583,7 @@ video {
 .content-box-icon {
     font-size: 36px;
 }
+
 .content-box-title {
     margin: 5px 0 0;
     font-size: 14px;
@@ -592,7 +595,7 @@ video {
 /* //////////////////////////////////////////////////////////////////////////*/
 #portfolio{
   margin:0px 0px 0px -4px;
-  height:584px;
+  height:622px;
   background-color: black;
 }
 .portfolio-box {
@@ -637,7 +640,7 @@ video {
 }
 .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
-
+ 
   background-color: black;
 }
 .portfolio-box:focus {
@@ -669,10 +672,11 @@ margin:0px 0px 0px 0px;
   }
 
   .img-responsive{
-      filter: grayscale(100%);
+      filter: grayscale(0%);
   }
   .img-responsive:hover{
     opacity:.1;
+
   }
 
 #aboutExt{
