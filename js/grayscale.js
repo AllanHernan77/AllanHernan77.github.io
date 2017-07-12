@@ -4,7 +4,7 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-
+// fading scroll effect
 $(window).scroll(function(){
     $(".intro").css("opacity", 1 - $(window).scrollTop() / 350);
   });

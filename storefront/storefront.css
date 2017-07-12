@@ -176,7 +176,7 @@ background-color: #d22b2b
 }
 
 
-.TPABTEXT{
+#TPABTEXT{
     width: 33%;
     height: auto;
     padding: 50px;
@@ -329,14 +329,14 @@ background-color: #d22b2b
     margin-left:104px;
 }
 
-.HeaderMerch{
+#HeaderMerch{
     background-color:#272727;
     width:100%;
     height:100px;
     margin:-21px 0px 0px 0px; 
     border-radius:3px;
 }
-.MerchHeader{
+#MerchHeader{
     padding:23px;
     position:center;
     margin:0px 0px 0px 500px;
@@ -401,7 +401,7 @@ background-color: #d22b2b
     border-radius:3px;
 }
 
-.NewsText{
+#NewsText{
     padding:23px;
     position:center;
     margin:0px 0px 0px 600px;
