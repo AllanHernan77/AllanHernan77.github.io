@@ -11,7 +11,7 @@ body {
   width: 100%;
   height: 100%;
   font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: white;
+  -8or: white;
   background-color: black;
 
 }
@@ -135,7 +135,7 @@ a:focus {
   height: auto;
   padding: 100px 0;
   text-align: center;
-  color:0; 
+  color:white; 
   z-index:;
   background-color: ;
   -webkit-background-size: cover;
@@ -502,6 +502,9 @@ video {
   html { background: url() #000 no-repeat center center fixed; }
   #bgvid { display: none; }
 }
+.anEmail{
+  color:white;
+}
 /*///////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 
@@ -564,12 +567,22 @@ video {
 .container {
     width: 1170px;
 }
+.copy{
+  color:white;
+}
 .module-title {
     position: relative;
     margin: 0 0 70px;
     letter-spacing: 0.15em;
     font-size: 45px;
     color: white;
+}
+
+.module-subtitle {
+    color: white;
+}
+.fa{
+  color:white; 
 }
 .align-center {
     text-align: center;
@@ -587,10 +600,12 @@ video {
 .content-box-title {
     margin: 5px 0 0;
     font-size: 14px;
+    color:white;
   }
 
 .content-box-text {
     margin: 15px 0 0;
+    color:white;
 }
 /* //////////////////////////////////////////////////////////////////////////*/
 #portfolio{
@@ -667,6 +682,7 @@ video {
     letter-spacing: 0.1em;
      font-size: 45px;
   text-align: center;
+  color:white;
 margin:0px 0px 0px 0px;
 
   }
@@ -718,3 +734,7 @@ ul.moreButtonList {
   ul.moreButtonList li:last-child {
     margin-bottom: 0;
   }
+  /*animation./////////////////////////////////////////////////////////////////////*/
+ 
+
+  /*/////////////////////////////////////////////////////////////////////////////////*/

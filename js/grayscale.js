@@ -4,6 +4,22 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+
+$(window).scroll(function(){
+    $(".intro").css("opacity", 1 - $(window).scrollTop() / 350);
+  });
+$(window).scroll(function(){
+    $("#about").css("opacity", 2 - $(window).scrollTop() / 580);
+  });
+$(window).scroll(function(){
+    $("#portfolio").css("opacity", 3 - $(window).scrollTop() / 730);
+  });
+$(window).scroll(function(){
+    $(".module").css("opacity", 4 - $(window).scrollTop() / 720);
+  });
+$(window).scroll(function(){
+    $("#contact").css("opacity", 5 - $(window).scrollTop() / 720);
+  });
 // jQuery to collapse the navbar on scroll
 function collapseNavbar() {
     if ($(".navbar").offset().top > 50) {
@@ -182,4 +198,15 @@ function init() {
         map: map,
         icon: image
     });
+}
+
+var myVar;
+
+function myFunction() {
+    myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
 }
