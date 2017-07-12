@@ -689,6 +689,7 @@ margin:0px 0px 0px 0px;
 
   .img-responsive{
       filter: grayscale(0%);
+      height: 274px;
   }
   .img-responsive:hover{
     opacity:.1;
