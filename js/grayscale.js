@@ -18,7 +18,7 @@ $(window).scroll(function(){
     $(".module").css("opacity", 4 - $(window).scrollTop() / 720);
   });
 $(window).scroll(function(){
-    $("#contact").css("opacity", 5 - $(window).scrollTop() / 720);
+    $("#contact").css("opacity", 5 - $(window).scrollTop() / 820);
   });
 // jQuery to collapse the navbar on scroll
 function collapseNavbar() {
