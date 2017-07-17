@@ -259,6 +259,10 @@ font-family: 'IM Fell French Canon SC', serif;
     min-width: 960px;
 }
 
+#doubledown{
+  color:white;
+}
+
 /*///////////////////////////////////////////////////////////////////////////////////////////////*/
 .img__img{
   margin: -577px 746px 0px 0px;
@@ -612,7 +616,31 @@ video {
     color: white;
 }
 .fa{
-  color:white; 
+  color:red; 
+}
+.fa-cog{
+  color:white;
+}
+.fa-code{
+  color: white;
+}
+.fa-desktop{
+  color: white;
+}
+.fa-video-camera{
+  color: white;
+}
+.fa-trophy{
+  color: white;
+}
+.fa-picture-o{
+  color: white;
+}
+.fa-cc{
+  color: white;
+}
+.fa-film{
+  color: white;
 }
 .align-center {
     text-align: center;
@@ -779,3 +807,7 @@ ul.moreButtonList {
   .skillsetline{
     border-color:#cc0909;
   }
+
+githubicon{
+  color: red;
+}
