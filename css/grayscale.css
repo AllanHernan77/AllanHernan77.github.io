@@ -61,7 +61,8 @@ a:focus {
   margin-bottom:0px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   text-transform: uppercase;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-family: 'Alegreya', serif;
+
   background-color: transparent;
   margin-right: 0px;
 }
@@ -164,9 +165,13 @@ a:focus {
   .intro .intro-body .intro-text {
     font-size: 26px;
   }
+
+  .intro-text{
+    color:white;
+font-family: 'Alegreya', serif;
+  }
   .brand-heading{
-    font-family: 'Dosis', Arial, sans-serif;
-    letter-spacing: 2px;
+font-family: 'IM Fell French Canon SC', serif;
   }
 }
 .btn-circle {
@@ -174,7 +179,7 @@ a:focus {
   height: 70px;
   margin-top: 15px;
   padding: 7px 16px;
-  border: 2px solid white;
+  border: 2px solid #cc0909;
   border-radius: 100% !important;
   font-size: 40px;
   color: white;
@@ -256,11 +261,15 @@ a:focus {
 
 /*///////////////////////////////////////////////////////////////////////////////////////////////*/
 .img__img{
-  margin: -489px 746px 0px 0px;
+  margin: -577px 746px 0px 0px;
     filter: grayscale(0%);
     z-index: 1;
-    width:510px; 
+    width:410px; 
     height:610px;
+}
+
+#aboutmeLine{
+  border-color:#cc0909;
 }
 
 
@@ -275,6 +284,7 @@ a:focus {
     margin: 0px 0px 0px 60px;
     top: 20%;
     opacity:;
+    z-index: 0;
  
 }
 .download-section {
@@ -301,6 +311,9 @@ a:focus {
   color: white;
   font-size: 45px;
 }
+.projectline{
+  border-color: #cc0909;
+}
 #map {
   width: 100%;
   height: 200px;
@@ -318,7 +331,7 @@ a:focus {
   #contact{
       width: 100%;
     background-color: black;
-    height: 789px;
+    height: 807px;
     margin: -1px 93px 6px -3px;
     padding: 120px;
     box-shadow: 0px 0px 150px black;
@@ -361,6 +374,19 @@ a:focus {
   color: black;
   background-color: grey;
 }
+.btn-more {
+  border: 1px solid black;
+  color: black;
+  background-color: transparent;
+}
+.btn-more:hover,
+.btn-more:focus {
+  border: 1px solid black;
+  outline: none;
+  color: black;
+  background-color: grey;
+}
+
 ul.banner-social-buttons {
   margin-top: 0;
 }
@@ -420,7 +446,9 @@ body {
   margin: 0;
   background: #000; 
 }
-
+hr{
+  border-color:#cc0909;
+}
 #polina { 
   font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
   font-weight:100; 
@@ -569,6 +597,8 @@ video {
 }
 .copy{
   color:white;
+  font-family: 'Alegreya', serif;
+
 }
 .module-title {
     position: relative;
@@ -718,6 +748,8 @@ margin:0px 0px 0px 0px;
 ul.moreButtonList {
   margin:-105px 0px 4px 992px;
     list-style-type: none;
+    z-index: 1;
+    position: absolute;
 
 }
 
@@ -739,3 +771,11 @@ ul.moreButtonList {
  
 
   /*/////////////////////////////////////////////////////////////////////////////////*/
+
+.fa-code{
+    color: red;
+  }
+
+  .skillsetline{
+    border-color:#cc0909;
+  }
