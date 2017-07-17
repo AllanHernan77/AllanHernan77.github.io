@@ -126,7 +126,7 @@ font-family: 'Alegreya', serif;
   .navbar-custom.top-nav-collapse {
     padding: 0;
     background: black;
-    border-bottom: 1px solid #cc0909;
+    border-bottom: 1px solid rgba(9, 204, 9, 0.1);
 
   }
 }
