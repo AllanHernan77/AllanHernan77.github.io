@@ -1,5 +1,7 @@
 body{
     background-color:black;
+        overflow-x: hidden;
+
 }
 /*d22b2b for red alt text*/
 .KendrickHeaderText{
