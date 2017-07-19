@@ -154,8 +154,8 @@ PlayState.preload = function () {
     this.game.load.image('font:numbers', 'images/numbers.png');
 
     this.game.load.image('background', 'images/mountainwallpaper.jpg');
-    this.game.load.image('ground', 'images/ground.png');
-        this.game.load.image('ground', 'images/ground(2).png');
+    this.game.load.image('ground', 'images/groundtest.png');
+        this.game.load.image('ground', 'images/groundtest.png');
      this.game.load.image('lava', 'images/lava.png');
 
     this.game.load.image('grass:8x1', 'images/grass_8x1(2).png');
