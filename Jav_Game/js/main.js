@@ -155,14 +155,14 @@ PlayState.preload = function () {
 
     this.game.load.image('background', 'images/mountainwallpaper.jpg');
     this.game.load.image('ground', 'images/ground.png');
-        this.game.load.image('ground', 'images/ground.png');
+        this.game.load.image('ground', 'images/ground(2).png');
      this.game.load.image('lava', 'images/lava.png');
 
     this.game.load.image('grass:8x1', 'images/grass_8x1(2).png');
     this.game.load.image('grass:6x1', 'images/grass_6x1(1).png');
-    this.game.load.image('grass:4x1', 'images/grass_4x1.png');
-    this.game.load.image('grass:2x1', 'images/grass_2x1(2).png');
-    this.game.load.image('grass:1x1', 'images/grass_1x1.png');
+    this.game.load.image('grass:4x1', 'images/grass_4x1test.png');
+    this.game.load.image('grass:2x1', 'images/grass_2x1(1).png');
+    this.game.load.image('grass:1x1', 'images/grass_1x1test.png');
     this.game.load.image('invisible-wall', 'images/invisible_wall.png');
     this.game.load.image('icon:coin', 'images/tacosprite.png');
     this.game.load.image('key', 'images/key.png');
