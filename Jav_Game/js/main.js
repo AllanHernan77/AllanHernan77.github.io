@@ -158,19 +158,19 @@ PlayState.preload = function () {
         this.game.load.image('ground', 'images/ground.png');
      this.game.load.image('lava', 'images/lava.png');
 
-    this.game.load.image('grass:8x1', 'images/grass_8x1.png');
-    this.game.load.image('grass:6x1', 'images/grass_6x1.png');
+    this.game.load.image('grass:8x1', 'images/grass_8x1(2).png');
+    this.game.load.image('grass:6x1', 'images/grass_6x1(1).png');
     this.game.load.image('grass:4x1', 'images/grass_4x1.png');
-    this.game.load.image('grass:2x1', 'images/grass_2x1.png');
+    this.game.load.image('grass:2x1', 'images/grass_2x1(2).png');
     this.game.load.image('grass:1x1', 'images/grass_1x1.png');
     this.game.load.image('invisible-wall', 'images/invisible_wall.png');
     this.game.load.image('icon:coin', 'images/tacosprite.png');
     this.game.load.image('key', 'images/key.png');
 
     this.game.load.spritesheet('coin', 'images/tacoanimated.png', 32, 32);
-    this.game.load.spritesheet('spider', 'images/spidermust.png', 42, 32);
+    this.game.load.spritesheet('spider', 'images/spidermust(1).png', 42, 32);
 
-    this.game.load.spritesheet('hero', 'images/heroSombero.png', 36, 42);
+    this.game.load.spritesheet('hero', 'images/heromain.png', 36, 42);
     this.game.load.spritesheet('door', 'images/door.png', 42, 66);
     this.game.load.spritesheet('icon:key', 'images/key_icon.png', 34, 30);
 
@@ -192,7 +192,7 @@ PlayState.create = function () {
     };
 
     // create level
-    this.game.add.image(20, 420, 'background');
+    this.game.add.image(20, 320, 'background');
     this._loadLevel(this.game.cache.getJSON(`level:${this.level}`));
 
     // crete hud with scoreboards)
