@@ -192,7 +192,7 @@ PlayState.create = function () {
     };
 
     // create level
-    this.game.add.image(20, 320, 'background');
+    this.game.add.image(0, -320, 'background');
     this._loadLevel(this.game.cache.getJSON(`level:${this.level}`));
 
     // crete hud with scoreboards)
