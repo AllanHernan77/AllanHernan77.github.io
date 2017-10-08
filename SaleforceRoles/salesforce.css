@@ -1,3 +1,75 @@
-body{
-	background: linear-gradient(to bottom right, #00ffff, #0000ff);
+  html, body {
+  padding: 0;
+  margin: 0;
+}
+
+
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+#grad{
+	height: 650px;
+	width: 100%;
+    margin: 0px;
+    padding: 0px;
+	background: linear-gradient(to bottom right, #00ffff, #000010);
+	position: relative;
+}
+
+#salesforcecloud{
+	  width: 77%;
+  margin: 0 auto;
+  text-align: center;
+align-items: center;
+transform: translatey(0px);
+animation: float 6s ease-in-out infinite;
+}
+#cloud{
+height: 574px;
+
+}
+
+#textincloud{
+  margin: -250px;  
+  color: white;
+  font-family: 'Allerta', serif;
+  font-size: 50px;
+}
+
+#particle {
+  position:fixed;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  z-index:-1; 
+}
+
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	25% {
+		transform: translatey(-40px);
+	}
+
+	50%{
+		transform: translatey(0px);
+	}
+	75%{
+		transform: translatey(40px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+#block1{
+	background-color: black;
+	width: 100%;
+	height: 750px;
 }
