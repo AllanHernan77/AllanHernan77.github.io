@@ -19,7 +19,7 @@ html {
   width: 100%;
   height: 100%;
 }
-h1,
+
 h2,
 h3,
 h4,
@@ -822,4 +822,12 @@ position: absolute;
 
 .col-md-4{
   margin-left: 450px;
+}
+
+.aboutmeheader{
+font-size: 60px;
+font-family: 'Futura';
+color: green;
+text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080, 0 0 55px #ff0080, 0 0 75px #ff0080;
+text-align: center;
 }
