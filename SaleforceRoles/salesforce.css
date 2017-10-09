@@ -11,12 +11,12 @@
 
 
 #grad{
-	height: 650px;
+	height: 100%;
 	width: 100%;
     margin: 0px;
     padding: 0px;
 	background: linear-gradient(to bottom right, #00ffff, #000010);
-	position: relative;
+	position: absolute;
 }
 
 #salesforcecloud{
