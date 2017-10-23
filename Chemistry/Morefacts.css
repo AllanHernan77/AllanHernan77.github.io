@@ -1,0 +1,191 @@
+
+body{
+	 overflow-x: hidden;
+ max-width: 100%;
+padding: 0;
+ margin: 0;
+ background:linear-gradient(to top right, #000000, #040429);
+  z-index: -1;
+  height: 3300px
+
+}
+
+.headertext{
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700
+}
+
+p{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#Information{
+background: url('img/Albert.jpg') center center no-repeat  fixed; 	
+width:100%;
+	height: 85%;
+	position: absolute;
+	background-size: 1500px;
+	    filter: brightness(50%);
+	    z-index: 1;
+
+}
+
+#IntroText{
+  font-size: 648%;
+    color: white;
+    font-family: 'Poiret One', cursive;
+      filter: brightness(100%);
+      position: absolute;
+      margin: 180px 0px 0px 170px;
+      z-index: 1;
+
+
+}
+
+
+.FirstBox {
+      width: 50%;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 3px;
+    opacity: .3;
+    position: absolute;
+    margin: 720px 0px 0px 330px;
+    z-index: 1;
+    padding: 30px;
+
+ }
+
+  .FirstBox:hover {
+    opacity: .8;
+    box-shadow: 0px 0px 150px lightslategray;
+      -webkit-transition: all 1.35s;
+  -moz-transition: all 1.35s;
+  transition: all 1.35s;
+
+
+ }
+
+
+.SecondBox {
+      width: 50%;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 3px;
+    opacity: .3;
+    position: absolute;
+    margin: 1120px 0px 0px 330px;
+    z-index: 1;
+    padding: 30px;
+
+ }
+
+  .SecondBox:hover {
+    opacity: .8;
+    box-shadow: 0px 0px 150px lightslategray;
+      -webkit-transition: all 1.35s;
+  -moz-transition: all 1.35s;
+  transition: all 1.35s;
+
+
+ }
+
+
+.ThirdBox {
+      width: 50%;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 3px;
+    opacity: .3;
+    position: absolute;
+    margin: 1620px 0px 0px 330px;
+    z-index: 1;
+     padding: 30px;
+
+ }
+
+  .ThirdBox:hover {
+    opacity: .8;
+    box-shadow: 0px 0px 150px lightslategray;
+      -webkit-transition: all 1.35s;
+  -moz-transition: all 1.35s;
+  transition: all 1.35s;
+
+
+ }
+
+.headertext{
+	text-align: center;
+}
+
+
+
+.FirstButton{
+    border-radius: 3px;
+    width: 150px;
+    border: 3px solid white;
+    display: inline-block;
+    text-align: center;
+    text-decoration: 
+    color:black;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.4);
+    position: relative;
+    z-index: 1;
+    margin:3240px 0px 0px 600px;
+}
+.FirstButton:hover{
+background-color: #2e8fc6;
+}
+.FirstButton:visited {
+    color:black;
+}
+.FirstButton:active {
+    text-decoration: none;
+}
+
+.Fourthbox {
+      width: 50%;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 3px;
+    opacity: .3;
+    position: absolute;
+    margin: 2070px 0px 0px 330px;
+    z-index: 1;
+     padding: 30px;
+
+ }
+
+  .Fourthbox:hover {
+    opacity: .8;
+    box-shadow: 0px 0px 150px lightslategray;
+      -webkit-transition: all 1.35s;
+  -moz-transition: all 1.35s;
+  transition: all 1.35s;
+
+}
+  .Citebox {
+      width: 60%;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 3px;
+    opacity: .3;
+    position: absolute;
+    margin: 2570px 0px 0px 260px;
+    z-index: 1;
+     padding: 30px;
+
+ }
+
+  .Citebox:hover {
+    opacity: .8;
+    box-shadow: 0px 0px 150px lightslategray;
+      -webkit-transition: all 1.35s;
+  -moz-transition: all 1.35s;
+  transition: all 1.35s;
+
+
+
+ }

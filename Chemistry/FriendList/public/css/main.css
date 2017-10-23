@@ -1,0 +1,49 @@
+body{
+	background: url("https://static.planetminecraft.com/files/resource_media/screenshot/1316/ricks_minecraft_tales_derp_face_by_rickkmurray-d4h8yw3-1_5281985_lrg.jpg");
+	background-position: center;
+	padding-left: 45px;
+	padding-right: 45px;
+	font-size: 100%;
+}
+.title{
+	margin: 10px;
+	border:solid 3px #e6eeff;
+	display: block center;
+	text-align: center;
+	font-family: 'Lemonada', cursive;
+}
+.info{
+	margin: auto;
+    width: 50%;
+    border: 3px solid black;
+    padding: 45px;
+    text-align: center;
+    background-color: transparent;
+    font-family: 'Hind', sans-serif;
+
+}
+button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  background-color: white;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+button:hover {background-color: #f2f2f2}
+
+button:active {
+  background-color: #f2f2f2;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+h2{
+  color:white;
+}

@@ -1,0 +1,226 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #213E4A;
+    background:#213E4A;
+
+}
+
+/** Header styles **/
+
+
+h1 {
+    color: white;
+    color: white;
+    font-family: 'Covered By Your Grace', cursive;
+    font-size: 26px;
+     font-weight: bold;
+    line-height: 13px;
+    margin: 0;
+    position: absolute;
+    left: 88px;
+    top: 150px;
+    text-align: center;
+    top: 3%;
+  }
+h2{
+  color: white;
+    color: white;
+    font-family: 'Covered By Your Grace', cursive;
+    font-size: 26px;
+     font-weight: bold;
+    line-height: 13px;
+    margin: 0;
+    position: absolute;
+    left: 10px;
+    top: 200px;
+    text-align: center;
+    top: 17%;
+}
+
+.headtext {
+    color: white;
+    color: white;
+    font-family: 'Covered By Your Grace', cursive;
+    font-size: 25px;
+     font-weight: bold;
+    font-style: cursive;
+    line-height: 76px;
+    margin: 0;
+    position: absolute;
+    left: 107px;
+    top: 150px;
+    text-align: center;
+    top: 2%;
+}
+
+a {
+  color: lightslategray;
+  font-family: 'Covered By Your Grace', cursive;
+  font-size: 13px;
+  font-weight: 900;
+  text-align: right;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  float: right;
+}
+
+
+.topnav {
+    background-color: black;
+    overflow: hidden;
+}
+
+
+.topnav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center; /**Changed cednter**/
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: white;
+}
+
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+article .line{
+    /* The dividing line inside of the article is darker: */
+    background-color:#15242a;
+    border-bottom-color:#204656;
+    margin: 6.3em 0;
+}
+article{
+    margin:0em 0;
+    padding: -8px;
+}
+
+
+#black-tl {width: 100%;/* background: black top left url() no-repeat; */}
+#black-tr { width: 100%; background: top right url() no-repeat; }
+#black-bl { width: 100%; background: bottom left url() no-repeat; }
+#black-br { width: 100%; background: bottom right url() no-repeat; }
+
+#black-tl {
+  margin-left: -44px;
+  margin-top: -61px;
+  width: 608px;
+  position: relative;
+  float: left;
+}
+#black-bl {
+  padding: 20px 20px 10px 20px;
+  position: relative;
+}
+
+.black-box {
+  float: left;
+  width: 126px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.black-box h2 {
+  font-size: 13px;
+  font-weight: normal;
+}
+.black-box h2 em {
+  font-size: 2px;
+  font-family: serif;
+}
+.black-box .more {
+  color: red;
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+section#contact {
+  background-color: #222222;
+  background-image: url('img/7135.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+section#contact .section-heading {
+  color: white;
+}
+section#contact .form-group {
+  margin-bottom: 25px;
+}
+section#contact .form-group input,
+section#contact .form-group textarea {
+  padding: 20px;
+}
+section#contact .form-group input.form-control {
+  height: auto;
+}
+section#contact .form-group textarea.form-control {
+  height: 236px;
+}
+section#contact .form-control:focus {
+  border-color: #fed136;
+  box-shadow: none;
+}
+section#contact ::-webkit-input-placeholder {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #eeeeee;
+}
+section#contact :-moz-placeholder {
+  /* Firefox 18- */
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #eeeeee;
+}
+section#contact ::-moz-placeholder {
+  /* Firefox 19+ */
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #eeeeee;
+}
+section#contact :-ms-input-placeholder {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #eeeeee;
+}
+section#contact .text-danger {
+  color: #e74c3c;
+}

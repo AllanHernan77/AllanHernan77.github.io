@@ -1,0 +1,14 @@
+{
+  "name": "jqueryfriendlist",
+  "version": "1.0.0",
+  "description": "An ajax intro project",
+  "main": "(index.js)",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Resinos",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
