@@ -1,0 +1,368 @@
+body{
+        overflow-x: hidden;
+    max-width: 100%;
+    overflow-x: hidden;
+  background-size: cover;
+    z-index: -1;
+  padding: 0;
+  margin: 0;
+      margin:0 auto;
+    max-height: 99px;
+}
+/*d22b2b for red alt text*/
+
+.FirstPage{
+    width: 100%;
+    height: 750px;
+    background: url('img/1920.jpg') center center no-repeat;
+    background-size: 110%;
+    margin: 0px 0px 0px 0px;
+    position: relative;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+.ShopTPAB {
+    width: 100%;
+    height: 800px;
+    position: relative;
+          background: url('img/babe.jpg') center center no-repeat;
+    background-size:cover;
+    box-shadow:inset -6px -14px 19px 20px black;
+
+
+
+
+}
+
+.TPAB{
+    width: 100%;
+    height: 600px;
+    margin: 0px 0px 0px 0px;
+
+
+}
+
+#TPABTEXT{
+    width: 63%;
+    height: auto;
+    padding: 50px;
+    border-radius: 3px;
+    position: absolute;
+    margin: 0px 0px 0px 400px;
+    top: 30%;
+    position: center; 
+    right: 29%;
+    filter: brightness(100%) !important;
+
+
+
+   
+}
+
+.textman{
+    font-size: 23px;
+    font-family: 'Dosis', sans-serif;
+    color: #aba5a9;
+     font-weight:900;  
+}
+
+#ShopUU {
+    width: 100%;
+    height: 800px;
+     background: url('img/sing.jpg') center center no-repeat;
+    background-size:cover;  
+      position: relative;
+          box-shadow:inset -6px -14px 19px 20px black;
+
+    margin-bottom:0px;
+}
+
+.UU{
+    width: 100%;
+    height: 600px;
+    background: url(img/KendrickLamarUU.jpg) center center no-repeat;
+    background-size: cover;
+    margin: 0px 0px 0px 0px;
+    position: relative;
+        top: 10%;
+
+}
+
+    .UUText{
+     width: 63%;
+    height: auto;
+    padding: 50px;
+    border-radius: 3px;
+    position: absolute;
+    margin: 0px 0px 0px 400px;
+    top: 30%;
+    position: center; 
+    left: 2%;
+    filter: brightness(100%) !important;
+}
+
+#DAMNBlock{
+    width: 100%;
+    height:800px;
+    position:relative;
+    margin-top:-21px;
+    margin-left: 0px;
+    margin-bottom:0px; 
+    background: url('img/radio.jpg') center center no-repeat;
+    background-size:cover;
+    box-shadow: inset -6px -14px 19px 20px black;
+}
+#fourthbox{
+    width: 100%;
+    height:800px;
+    position:relative;
+    margin-top:-21px;
+    margin-left: 0px;
+    margin-bottom:0px; 
+           background-color:blue;
+               box-shadow:inset -6px -14px 19px 20px black;
+                background: url('img/movei.jpg') center center no-repeat;
+    background-size:cover;
+
+
+}
+
+#fifthbox{
+    width: 100%;
+    height:800px;
+    position:relative;
+    margin-top:-21px;
+    margin-left: 0px;
+    margin-bottom:0px; 
+        background: url('http://www.emercedesbenz.com/Images/Aug08/19_Mercedes_Benz_Supercharged_Cars_1/467473_803156_3539_2519_10679237131.jpg') center center no-repeat;
+    background-size:cover;
+               box-shadow:inset -6px -14px 19px 20px black;
+
+
+}
+.DAMNBACKGROUND{
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    margin: 0px 0px 0px 0px;
+    position: relative;
+    top:10%;
+
+}
+
+
+
+    .DAMNTEXTBlock{
+     width: 63%;
+    height: auto;
+    padding: 50px;
+    border-radius: 3px;
+    position: absolute;
+    margin: 0px 0px 0px 400px;
+    top: 30%;
+    position: center; 
+    right: 29%;
+    filter: brightness(100%) !important;
+        font-family: 'Dosis', sans-serif;
+
+}
+
+    #DAMNTEXTBlock1{
+     width: 63%;
+    height: auto;
+    padding: 50px;
+    border-radius: 3px;
+    position: absolute;
+    margin: 0px 0px 0px 400px;
+    top: 30%;
+    position: center; 
+    left: 2%;
+    filter: brightness(100%) !important;
+        font-family: 'Dosis', sans-serif;
+
+}
+
+
+.DAMNALBUM{
+    position: center;
+    text-align: center;
+    font-size: 45px;
+    color: white;
+font-family: 'Montserrat', sans-serif;
+text-transform: uppercase;
+letter-spacing: 0.1em;
+    font-weight: 900;
+}
+
+ #fourthheader {
+   
+    position: center;
+    text-align: center;
+    font-size: 45px;
+    color: white;
+font-family: 'Montserrat', sans-serif;
+text-transform: uppercase;
+letter-spacing: 0.1em;
+
+}
+
+ #fifthheader {
+    position: center;
+    text-align: center;
+    font-size: 45px;
+    color: white;
+font-family: 'Montserrat', sans-serif;
+text-transform: uppercase;
+letter-spacing: 0.1em;
+}
+
+
+
+#salesforcecloud{
+      width: 77%;
+  margin: 0 auto;
+  text-align: center;
+align-items: center;
+position: absolute;
+}
+#cloud{
+height: 574px;
+position: relative;
+
+}
+#textincloud{
+  margin: -79px -344px 0px 0px;  
+  color: white;
+  font-family: 'Allerta', serif;
+  font-size: 66px;
+}
+#particle {
+  position:fixed;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  z-index:-1; 
+}
+@keyframes float {
+    0% {
+        transform: translatey(0px);
+    }
+    25% {
+        transform: translatey(-40px);
+    }
+
+    50%{
+        transform: translatey(0px);
+    }
+    75%{
+        transform: translatey(40px);
+    }
+    100% {
+        transform: translatey(0px);
+    }
+}
+
+
+
+#Moveright{
+    width: 6%;
+    height:100%;
+    float: right;
+    margin: 7px 24px 120px 0px;
+    position: relative;
+
+}
+
+.vectorimg:hover
+{
+
+left: 50%;
+    margin: 0 auto;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(2);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(2);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(2);
+    transition: all 200ms ease-in;
+    transform: scale(2);
+}
+
+.vectorimg{
+height:140px;
+}
+
+
+.vectorimgport{
+    height:500px;
+    float:right;
+        margin: -280px 24px 120px 0px;
+            
+            
+
+}
+#vectorimgport2{
+    height:500px;
+    float:right;
+        margin: 350px 624px 120px 0px;
+}
+#vectorimgport3{
+    height:500px;
+    float:right;
+        margin: 150px 24px 120px 0px;
+}
+#vectorimgport4{
+    height:500px;
+    float:right;
+        margin: 350px 624px 120px 0px;
+}
+#vectorimgport5{
+    height:319px;
+    position: absolute;
+    float:right;
+        margin: 350px 624px 120px 1000px;
+}
+left: 50%;
+    margin: 0 auto;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(2);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(2);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(2);
+    transition: all 200ms ease-in;
+    transform: scale(2);
+}
+
+#holder{
+    width: 1000px;
+    height: -200px;
+}
+
+#jobholder{
+    width: 20%;
+    height:100px;
+    position: absolute;
+    margin: 0px -11px 0px 567px;
+    text-align: center;
+    opacity: 0 ;
+    color: white;
+    font-size: 40px;
+
+
+
+
+
+}
+
+.fadein{
+    opacity: 1 !important;
+}
+
