@@ -56,7 +56,6 @@ body{
     top: 30%;
     position: center; 
     right: 29%;
-    filter: brightness(100%) !important;
 
 
 
@@ -68,6 +67,8 @@ body{
     font-family: 'Dosis', sans-serif;
     color: #aba5a9;
      font-weight:900;  
+
+
 }
 
 #ShopUU {
@@ -101,6 +102,7 @@ body{
     margin: 0px 0px 0px 400px;
     top: 30%;
     position: center; 
+
     left: 2%;
     filter: brightness(100%) !important;
 }
@@ -169,6 +171,7 @@ body{
     filter: brightness(100%) !important;
         font-family: 'Dosis', sans-serif;
 
+
 }
 
     #DAMNTEXTBlock1{
@@ -191,11 +194,12 @@ body{
     position: center;
     text-align: center;
     font-size: 45px;
-    color: #393535;
+    color: #605858;
 font-family: 'Montserrat', sans-serif;
 text-transform: uppercase;
 letter-spacing: 0.1em;
     font-weight: 900;
+
 }
 
  #fourthheader {
