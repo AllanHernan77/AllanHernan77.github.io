@@ -50,16 +50,14 @@ body{
     width: 63%;
     height: auto;
     padding: 50px;
-    border-radius: 3px;
+    border-radius: 180px;
     position: absolute;
     margin: 0px 0px 0px 400px;
     top: 30%;
     position: center; 
     right: 29%;
-
-
-
-   
+    background-color: #093871;
+    opacity: .9;
 }
 
 .textman{
@@ -97,12 +95,13 @@ body{
      width: 63%;
     height: auto;
     padding: 50px;
-    border-radius: 3px;
+    border-radius: 180px;
     position: absolute;
     margin: 0px 0px 0px 400px;
     top: 30%;
     position: center; 
-
+background-color: #061c3f;
+opacity: .9;
     left: 2%;
     filter: brightness(100%) !important;
 }
@@ -162,7 +161,7 @@ body{
      width: 63%;
     height: auto;
     padding: 50px;
-    border-radius: 3px;
+    border-radius: 180px;
     position: absolute;
     margin: 0px 0px 0px 400px;
     top: 30%;
@@ -170,6 +169,8 @@ body{
     right: 29%;
     filter: brightness(100%) !important;
         font-family: 'Dosis', sans-serif;
+        background-color: #093871;
+        opacity: .9;
 
 
 }
@@ -178,11 +179,13 @@ body{
      width: 63%;
     height: auto;
     padding: 50px;
-    border-radius: 3px;
+    border-radius: 180px;
     position: absolute;
     margin: 0px 0px 0px 400px;
     top: 30%;
     position: center; 
+    background-color: #061c3f;
+    opacity: .9;
     left: 2%;
     filter: brightness(100%) !important;
         font-family: 'Dosis', sans-serif;
@@ -194,7 +197,7 @@ body{
     position: center;
     text-align: center;
     font-size: 45px;
-    color: #605858;
+    color: #716d67;
 font-family: 'Montserrat', sans-serif;
 text-transform: uppercase;
 letter-spacing: 0.1em;
@@ -277,7 +280,6 @@ height: 574px;
 #Moveright{
     width: 6%;
     height:100%;
-    background-color: ;
     float: right;
     margin: -125px 24px 120px 0px;
 
