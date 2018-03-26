@@ -61,7 +61,7 @@ body{
 }
 
 .textman{
-    font-size: 23px;
+    font-size: 19px;
     font-family: 'Dosis', sans-serif;
     color: #aba5a9;
      font-weight:900;  
@@ -124,7 +124,6 @@ opacity: .9;
     margin-top:-21px;
     margin-left: 0px;
     margin-bottom:0px; 
-           background-color:blue;
                box-shadow:inset -5px 4px 19px 0px black;
                 background: url('img/womenwork.jpg') center center no-repeat;
     background-size:cover;
