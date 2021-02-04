@@ -6,19 +6,19 @@
 
 // fading scroll effect
 $(window).scroll(function(){
-    $(".intro").css("opacity", 1 - $(window).scrollTop() / 350);
+    $(".intro").css("opacity", 1 - $(window).scrollTop() / 450);
   });
 $(window).scroll(function(){
-    $("#about").css("opacity", 2 - $(window).scrollTop() / 580);
+    $("#module_about").css("opacity", 2 - $(window).scrollTop() / 980);
   });
 $(window).scroll(function(){
-    $("#portfolio").css("opacity", 3 - $(window).scrollTop() / 730);
+    $("#portfolio").css("opacity", 3 - $(window).scrollTop() / 930);
   });
 $(window).scroll(function(){
-    $(".module").css("opacity", 4 - $(window).scrollTop() / 720);
+    $(".module").css("opacity", 4 - $(window).scrollTop() / 950);
   });
 $(window).scroll(function(){
-    $("#contact").css("opacity", 5 - $(window).scrollTop() / 820);
+    $("#contact").css("opacity", 5 - $(window).scrollTop() / 930);
   });
 // jQuery to collapse the navbar on scroll
 function collapseNavbar() {

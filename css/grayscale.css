@@ -61,7 +61,7 @@ a:focus {
   margin-bottom:0px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   text-transform: uppercase;
-font-family: 'Alegreya', serif;
+  font-family: 'Alegreya', serif;
 
   background-color: transparent;
   margin-right: 0px;
@@ -167,10 +167,10 @@ font-family: 'Alegreya', serif;
 
   .intro-text{
     color:white;
-font-family: 'Alegreya', serif;
+    font-family: 'Alegreya', serif;
   }
   .brand-heading{
-font-family: 'IM Fell French Canon SC', serif;
+    font-family: 'IM Fell French Canon SC', serif;
   }
 }
 .btn-circle {
@@ -247,28 +247,33 @@ font-family: 'IM Fell French Canon SC', serif;
 }
 
 #about{
- width: 100%;
+  width: 100%;
   padding: 50px 0;
   background-color: #3e3b3b;
   height:620px;
   margin:0px 0px 0px 0px; 
-
-      box-shadow: 0px 0px 150px black;
-
-    min-width: 960px;
+  position: relative;
+  box-shadow: 0px 0px 150px black;
+  min-width: 960px;
 }
+
+
 
 #doubledown{
   color:white;
 }
 
 /*///////////////////////////////////////////////////////////////////////////////////////////////*/
-.img__img{
-  margin: -577px 746px 0px 0px;
+#img__img{
     filter: grayscale(0%);
     z-index: 1;
     width:410px; 
     height:610px;
+    position: absolute;
+    right: 60%;
+    border: .5px solid #cc0909; 
+    top: 8%;
+
 }
 
 #aboutmeLine{
@@ -278,13 +283,14 @@ font-family: 'IM Fell French Canon SC', serif;
 
 /*////////////////////////////////////////////////////////////////////////////////////////*/
 .textboxAbout{
-   width: 33%;
+    width: 33%;
     height: auto;
     padding: 50px;
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 3px;
     position: absolute;
     margin: 0px 0px 0px 60px;
+    left:20%;
     top: 20%;
     opacity:;
     z-index: 0;
@@ -304,16 +310,6 @@ font-family: 'IM Fell French Canon SC', serif;
   background-size: cover;
   -o-background-size: cover;
 }
-.headproject{
-   margin: -86px 0px 53px 0px;
-  text-transform: uppercase;
-  font-family: "Montserrat", sans-serif;
-    text-transform: uppercase;
-  font-weight: 100;
-    letter-spacing: 0.15em;
-  color: white;
-  font-size: 45px;
-}
 .projectline{
   border-color: #cc0909;
 }
@@ -328,9 +324,7 @@ font-family: 'IM Fell French Canon SC', serif;
     padding-top: 250px;
 
   }
-  .contactpoop{
-   
-  }
+ 
   #contact{
       width: 100%;
     background-color: black;
@@ -442,6 +436,7 @@ body {
   width: 100%;
   height: 600px;
   margin:0px 0px 0px 0px;
+
 }
 /* video need to edit/////////////////////////////////////////////////////////////////////////////////////*/
 
@@ -515,16 +510,16 @@ video {
     position: fixed;
     top: 50%;
     left: 50%;
-    min-width: 100%;
-    min-height: 100%;
+    min-width: 137%;
+    min-height: 148%;
     width: auto;
     height: auto;
     transform: translateX(-50%) translateY(-50%);
- background: url('') no-repeat;
-  background-size: cover;
-  transition: 1s opacity;
-  zoom:120%;
-  z-index: -100;
+    background: url('') no-repeat;
+    background-size: cover;
+    transition: 1s opacity;
+    zoom:120%;
+    z-index: -100;
 }
 
 @media screen and (max-width: 500px) { 
@@ -541,16 +536,18 @@ video {
 
 
 
-.boxAbout {
-     width: 553px;
+#boxAbout {
+    width: 553px;
     height: auto;
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 3px;
-    margin: -47px 0px 0px 450px;
+    right:5%;
+    top:-40px ;
     opacity: 1;
     transition: opacity 1s;
     color: black;
     padding: 50px;
+    position: absolute;
 
 }
 .headeraboutP{
@@ -591,6 +588,22 @@ video {
     background-size: cover;
     margin:-300px 0px 0px 0px;
 }
+#module_about{
+    position: relative;
+    padding: 140px 0;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin:-300px 0px 0px 0px;
+    margin:-21px 0px 0px 0px;
+    background-color: #3e3b3b;
+    width: 100%
+}
+
+
 .module{
   margin:-21px 0px 0px 0px;
   background-color: #3e3b3b;
@@ -773,11 +786,11 @@ margin:0px 0px 0px 0px;
 
 /*Buttonnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn*/
 
-ul.moreButtonList {
-  margin:-105px 0px 4px 992px;
+#moreButtonList {
     list-style-type: none;
     z-index: 1;
     position: absolute;
+    left:34.5%;
 
 }
 
