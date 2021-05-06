@@ -597,8 +597,6 @@ video {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    margin:-300px 0px 0px 0px;
-    margin:-21px 0px 0px 0px;
     background-color: #3e3b3b;
     width: 100%
 }
