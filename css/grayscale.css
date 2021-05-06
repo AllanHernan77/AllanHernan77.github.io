@@ -171,8 +171,20 @@ a:focus {
   }
   .brand-heading{
     font-family: 'IM Fell French Canon SC', serif;
+
+  color: white;
+  text-shadow:
+    0 0 5px red,
+    0 0 10px red,
+    0 0 20px red,
+    0 0 40px red,
+    0 0 80px red,
+    0 0 90px red,
+    0 0 100px red,
+    0 0 150px red;
+
   }
-}
+
 .btn-circle {
   width: 70px;
   height: 70px;
