@@ -42,4 +42,11 @@ body{
 	33% {
 		opacity: 0.6;
 
+	}
+}
+
+#img_header{
+
+	margin: -55% 0px 0px 0px;
+	opacity: 40%;
 }
