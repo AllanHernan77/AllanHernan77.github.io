@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;
+}
+
 body{
 
   background: rgb(2,0,36);
@@ -170,3 +174,4 @@ a{
   visibility: visible;
   opacity: 1;
 }
+

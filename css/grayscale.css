@@ -1,8 +1,4 @@
-/*!
- * Start Bootstrap - Grayscale v3.3.7+1 (http://startbootstrap.com/template-overviews/grayscale)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
+
   body {
     max-width: 100%;
     overflow-x: hidden;
@@ -41,6 +37,7 @@ p {
     margin: 0 0 35px;
     font-size: 20px;
     line-height: 1.6;
+    color: black;
   }
 
 a {
@@ -151,7 +148,7 @@ a:focus {
   font-size: 40px;
 }
 .intro .intro-body .intro-text {
-  font-size: 18px;
+  font-size: 26x;
 }
 @media (min-width: 768px) {
   .intro {
@@ -169,6 +166,9 @@ a:focus {
     color:white;
     font-family: 'Alegreya', serif;
   }
+
+
+  /*Red Glowing Effect on Name*/
   .brand-heading{
     font-family: 'IM Fell French Canon SC', serif;
 
@@ -182,7 +182,6 @@ a:focus {
     0 0 90px red,
     0 0 100px red,
     0 0 150px red;
-
   }
 
 .btn-circle {
@@ -205,51 +204,8 @@ a:focus {
   color: white;
   background: rgba(255, 255, 255, 0.1);
 }
-.btn-circle i.animated {
-  -webkit-transition-property: -webkit-transform;
-  -webkit-transition-duration: 1s;
-  -moz-transition-property: -moz-transform;
-  -moz-transition-duration: 1s;
-}
-.btn-circle:hover i.animated {
-  -webkit-animation-name: pulse;
-  -moz-animation-name: pulse;
-  -webkit-animation-duration: 1.5s;
-  -moz-animation-duration: 1.5s;
-  -webkit-animation-iteration-count: infinite;
-  -moz-animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
-  -moz-animation-timing-function: linear;
-}
-@-webkit-keyframes pulse {
-  0% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-  50% {
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
-  }
-  100% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-}
-@-moz-keyframes pulse {
-  0% {
-    -moz-transform: scale(1);
-    transform: scale(1);
-  }
-  50% {
-    -moz-transform: scale(1.2);
-    transform: scale(1.2);
-  }
-  100% {
-    -moz-transform: scale(1);
-    transform: scale(1);
-  }
 
-  }
+
 .content-section {
   padding-top: 100px;
   width: 100%;
@@ -270,12 +226,10 @@ a:focus {
 }
 
 
-
 #doubledown{
   color:white;
 }
 
-/*///////////////////////////////////////////////////////////////////////////////////////////////*/
 #img__img{
     filter: grayscale(0%);
     z-index: 1;
@@ -288,57 +242,8 @@ a:focus {
 
 }
 
-#aboutmeLine{
-  border-color:#cc0909;
-}
-
-
-/*////////////////////////////////////////////////////////////////////////////////////////*/
-.textboxAbout{
-    width: 33%;
-    height: auto;
-    padding: 50px;
-    background-color: rgba(255, 255, 255, 0.8);
-    border-radius: 3px;
-    position: absolute;
-    margin: 0px 0px 0px 60px;
-    left:20%;
-    top: 20%;
-    opacity:;
-    z-index: 0;
- 
-}
-.download-section {
-  width: 100%;
-  padding: ;
-  height: 755px;
-  margin:110px 0px 0px 0px;
-  color: white;
-
-  background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
-  background-color: black;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-}
-.projectline{
-  border-color: #cc0909;
-}
-#map {
-  width: 100%;
-  height: 200px;
-  margin-top: 100px;
-  opacity: 0;
-}
-@media (min-width: 767px) {
-  .content-section {
-    padding-top: 250px;
-
-  }
- 
   #contact{
-      width: 100%;
+    width: 100%;
     background-color: black;
     height: 807px;
     margin: -1px 93px 6px -3px;
@@ -357,11 +262,8 @@ a:focus {
   .download-section {
     padding: 100px 0;
   }
-  #map {
-    height: 100px;
-    margin-top: 150px;
-  }
-}
+
+
 .btn {
   text-transform: uppercase;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -396,63 +298,13 @@ a:focus {
   background-color: grey;
 }
 
-ul.banner-social-buttons {
-  margin-top: 0;
-}
-@media (max-width: 1199px) {
-  ul.banner-social-buttons {
-    margin-top: 15px;
-  }
-}
-@media (max-width: 767px) {
-  ul.banner-social-buttons li {
-    display: block;
-    margin-bottom: 20px;
-    padding: 0;
-  }
-  ul.banner-social-buttons li:last-child {
-    margin-bottom: 0;
-  }
-}
+
 footer {
   padding: 50px 0;
   background-color: #232323;
 }
-footer p {
-  margin: 0;
-}
-::-moz-selection {
-  text-shadow: none;
-  background: #fcfcfc;
-  background: rgba(255, 255, 255, 0.2);
-}
-::selection {
-  text-shadow: none;
-  background: #fcfcfc;
-  background: rgba(255, 255, 255, 0.2);
-}
-img::selection {
-  background: transparent;
-}
-img::-moz-selection {
-  background: transparent;
-}
-body {
-  webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
-}
 
 
-
-.backgroundforVideo{
-  background-color:white;
-  width: 100%;
-  height: 600px;
-  margin:0px 0px 0px 0px;
-
-}
-/* video need to edit/////////////////////////////////////////////////////////////////////////////////////*/
-
-}
 body {
   margin: 0;
   background: #000; 
@@ -460,53 +312,14 @@ body {
 hr{
   border-color:#cc0909;
 }
-#polina { 
-  font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
-  font-weight:100; 
-  background: rgba(0,0,0,0.3);
-  color: white;
-  padding: 2rem;
-  width: 33%;
-  margin:2rem;
-  float: right;
-  font-size: 1.2rem;
-}
+
 h1 {
   font-size: 3rem;
   text-transform: uppercase;
   margin-top: 0;
   letter-spacing: .3rem;
 }
-.activitesExamples{
-   list-style-type: none;
 
-}
-.list{
-   font-size: 15px;
-    text-transform: uppercase;
-  font-family: "Montserrat", sans-serif;
-    text-transform: uppercase;
-  font-weight: 100;
-  letter-spacing: 1px;
-  color: white;
-
-}
-#polina button { 
-  display: block;
-  width: 80%;
-  padding: .4rem;
-  border: none; 
-  margin: 1rem auto; 
-  font-size: 1.3rem;
-  background: rgba(255,255,255,0.23);
-  color: #fff;
-  border-radius: 3px; 
-  cursor: pointer;
-  transition: .3s background;
-}
-#polina button:hover { 
-   background: rgba(0,0,0,0.5);
-}
 
 a {
   display: inline-block;
@@ -541,11 +354,6 @@ video {
   html { background: url() #000 no-repeat center center fixed; }
   #bgvid { display: none; }
 }
-.anEmail{
-  color:white;
-}
-/*///////////////////////////////////////////////////////////////////////////////////////////////////*/
-
 
 
 #boxAbout {
@@ -573,7 +381,6 @@ video {
 }
 
 
-/*//////////////////////////*/
 
 .content-box-text:hover
 {
@@ -645,29 +452,32 @@ video {
   color:#cc0909; 
 }
 .fa-cog{
-  color:white;
+  color:red;
 }
 .fa-code{
-  color: white;
+  color: red;
 }
 .fa-desktop{
-  color: white;
+  color: red;
 }
 .fa-video-camera{
-  color: white;
+  color: red;
 }
 .fa-trophy{
-  color: white;
+  color: red;
 }
 .fa-picture-o{
-  color: white;
+  color: red;
 }
 .fa-cc{
-  color: white;
+  color: red;
 }
 .fa-film{
-  color: white;
+  color: red;
 }
+.fa-code{
+    color: red;
+  }
 .align-center {
     text-align: center;
 }
@@ -782,25 +592,6 @@ margin:0px 0px 0px 0px;
 
   }
 
-#aboutExt{
-  height:100px; 
-  width:100px;
- position: relative;
-  margin:-116px 38px 0px 1106px;
-}
-
-#aboutExtLink{
-  text-align: center;
-  font-size: 25px;
-  margin:auto 0px;
-}
-
-#aboutExtLink:hover{
-  color:grey;
-}
-
-/*Buttonnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn*/
-
 #moreButtonList {
     list-style-type: none;
     z-index: 1;
@@ -809,53 +600,6 @@ margin:0px 0px 0px 0px;
 
 }
 
-@media (max-width: 1199px) {
-  ul.moreButtonList{
-    margin-top: 15px;
-  }
-}
-@media (max-width: 767px) {
-  ul.moreButtonList li {
-    display: block;
-    margin-bottom: 20px;
-    padding: 0px;
-  }
-  ul.moreButtonList li:last-child {
-    margin-bottom: 0;
-  }
-  /*animation./////////////////////////////////////////////////////////////////////*/
- 
-
-  /*/////////////////////////////////////////////////////////////////////////////////*/
-
-.fa-code{
-    color: red;
-  }
-
-  .skillsetline{
-    border-color:#cc0909;
-  }
-
-#foot{
-background-color: black;
-margin:0 auto;
-width: 100%
-height:300px;
-position: absolute;
-}
-
-.poop{
-  color: black;
-}
-
-.col-md-4{
-  margin-left: 450px;
-}
-
-.aboutmeheader{
-font-size: 60px;
-font-family: 'Futura';
-color: green;
-text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080, 0 0 55px #ff0080, 0 0 75px #ff0080;
-text-align: center;
+.anEmail{
+  color: white;
 }
