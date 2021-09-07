@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<title>Clock Project One</title>
 	<link rel="stylesheet" type="text/css" href="clock.css">
+	 <script src="clock.js"></script> 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
@@ -11,6 +12,7 @@
 <body>
 
 	
+    <!--- HTML block that encompases divs that compose the clock --->
 
 	<div id="timerBlock">
 		<div id="headerBox">
@@ -23,32 +25,11 @@
 	</div>
 
 
-	<script type="text/javascript">
-		
-		function timer() {
-			let actualTime = (new Date("2022-08-15"))  - (new Date());
-	
-			let Days = Math.floor(actualTime / (1000 * 60 * 60 * 24))
-			let Hours =  Math.floor((actualTime / (1000 * 60 * 60)) % 24)
-			let Mins = Math.floor((actualTime / 1000 / 60) % 60)
-			let Secs = Math.floor((actualTime / 1000) % 60)
-			let Milli =  Math.floor((actualTime / 1000))
-
-			document.getElementsByClassName("Days")[0].innerHTML = Days + " Days" ;
-			document.getElementsByClassName("Hours")[0].innerHTML = Hours + " Hours" ;
-			document.getElementsByClassName("Mins")[0].innerHTML = Mins + " Minutes" ;
-			document.getElementsByClassName("Secs")[0].innerHTML = Secs + " Secs" ;
-
-		}
-
-		
-
-		timer();
-		setInterval(timer, 1000);
-		
-	
-	</script>
-
+<script type="text/javascript">
+	//call function every second
+	timer();
+	setInterval(timer, 1000);
+</script>
 
 </body>
 </html>
