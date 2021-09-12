@@ -16,7 +16,7 @@
 
 	<div id="timerBlock">
 		<div id="headerBox">
-		<h1>Birthday Countdown</h1>
+		<h1 id="header">Birthday Countdown</h1>
 	</div>
 		<div class="circle"><p class="Days">000 </p></div>
 		<div class="circle"><p class="Hours">00 </p></div>
@@ -26,10 +26,9 @@
 
 
 <script type="text/javascript">
-	//call function every second
-	timer();
-	setInterval(timer, 1000);
+	var refreshIntervalId;
+	// call function every second
+	refreshIntervalId = setInterval(timer, 1000);
 </script>
-
 </body>
 </html>
