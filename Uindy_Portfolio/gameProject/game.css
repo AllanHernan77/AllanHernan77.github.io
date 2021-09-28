@@ -1,0 +1,82 @@
+body {
+  height: 100vh;
+  background: #3C415C;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  color: #eee;
+  font-size: 40px;
+  position: relative;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+nav {
+  height: 5vh;
+  font-size: 3vh;
+  background: #B4A5A5;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  color: black;
+  width: 100%;
+
+}
+
+button {
+  border-radius: 30px;
+  color: #eee;
+  font-size: 30px;
+  padding: 20px;
+  background: transparent;
+  font-family: monospace;
+}
+button:hover {
+  border-color: green;
+  color: green;
+}
+
+
+/* container creation from div  */
+main > div {
+  position: absolute;
+  top: 5vh;
+  left: 0;
+  perspective: 300px;
+}
+
+/*letters created that are within the container*/
+main > div > span {
+  position: absolute;
+  display: block;
+
+  perspective: 300px;
+}
+
+/*game over screen that has opacity set to zero until gameover() function is called */
+#game-over {
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  top: 5vh;
+  right: 0;
+  bottom: 5vh;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#game-over.endScreen {
+  opacity: 1;
+  pointer-events: auto;
+}
+
