@@ -1,4 +1,7 @@
 // https://codepen.io/danwilson/pen/wWZWKW
+
+
+
 function loadGame() {
 
     var button = document.getElementsByTagName("button")[0];
@@ -141,7 +144,7 @@ function playGame(replay) {
   }
 
 
-  //On key press, see if it matches an active animating (falling) letter. If so, pop it from active array, pause it (to keep it from triggering "finish" logic), and add an animation on inner element with random 3d rotations that look like the letter is being kicked away to the distance. Also update score.
+//key press function forked from above 
   function onPress(e) {
     var char = e.key;
     if (char.length === 1) {
@@ -169,6 +172,7 @@ function playGame(replay) {
     }
   }
 
+//increments score 
   function addScore() {
     score++;
     scoreElement.textContent = "Score "+ score;

@@ -42,6 +42,22 @@ button:hover {
   color: green;
 }
 
+/*game over screen that has opacity set to zero until gameover() function is called */
+#game-over {
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  top: 5vh;
+  right: 0;
+  bottom: 5vh;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 
 /* container creation from div  */
 main > div {
@@ -59,20 +75,6 @@ main > div > span {
   perspective: 300px;
 }
 
-/*game over screen that has opacity set to zero until gameover() function is called */
-#game-over {
-  opacity: 0;
-  pointer-events: none;
-  position: absolute;
-  top: 5vh;
-  right: 0;
-  bottom: 5vh;
-  left: 0;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 
 #game-over.endScreen {
