@@ -1,4 +1,4 @@
-// https://codepen.io/danwilson/pen/wWZWKW
+// Forked website https://codepen.io/danwilson/pen/wWZWKW
 
 
 
@@ -15,6 +15,7 @@ function loadGame() {
 
 polyfillKey();
 
+//nested functions to access variables within thier scopes so that we do not need to declare global variables
 function playGame(replay) {
   var LETTERS = [
     "a",
