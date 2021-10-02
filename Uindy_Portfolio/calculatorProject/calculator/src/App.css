@@ -1,0 +1,27 @@
+
+.row0{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.screen{
+
+  background-color: black;
+  color: white;
+  width: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.row1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: stretch;
+
+}
