@@ -3,8 +3,6 @@ import "../App.css"
 import "./layout.js"
 
 
-
-
 function RowFive({calculator}){
 
     return(
@@ -12,7 +10,7 @@ function RowFive({calculator}){
         <div  style = {{margin: "0vh 0vh 0vh 0vh"}} className = "container0">
             <div className = "row">
                     <button id = "0" onClick = {calculator.numberCheck}type="button" className="lightGrey longer"   >0</button> 
-                    <button id = "." onClick = {calculator.numberCheck}type="button" className="lightGrey longer">.</button> 
+                    <button id = "." type="button" className="lightGrey longer">.</button> 
                     <button id = "=" onClick = {calculator.operatorCheck} type="button" className="orange longer">=</button>
             </div>
         </div>
