@@ -1,9 +1,12 @@
 import React from "react"
-import "./App.CSS"
+import "../App.css"
+
 function RowZero(){
 
     return(
-        <div></div>
+        <div className = "row0">
+           <div id = "screen"></div>
+        </div>
     )
 }
 
